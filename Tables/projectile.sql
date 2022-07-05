@@ -5,5 +5,7 @@ CREATE TABLE `db`.`projectile` (
   `ylocation` DECIMAL(10,2) NULL,
   `zlocation` DECIMAL(10,2) NULL,
   `xrotation` DECIMAL(4,2) NULL,
-  'velocity' DECIMAL(4,2) NULL,`creationdate` DATETIME DEFAULT (CURRENT_TIMESTAMP()),
-  CONSTRAINT id_constraint PRIMARY KEY (`userid`));
+  `velocity` DECIMAL(4,2) NULL,
+  `creationdate` DATETIME DEFAULT (CURRENT_TIMESTAMP()),
+  CONSTRAINT id_constraint PRIMARY KEY (`userid`)
+  );
