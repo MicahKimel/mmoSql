@@ -7,7 +7,7 @@ CREATE PROCEDURE `get_groups` (
     IN idUser INT
 )
 BEGIN
-    select * from group where idUser = idUser
+    select * from group where idUser = idUser;
 END$$
 
 DELIMITER ;
