@@ -10,7 +10,7 @@ CREATE PROCEDURE `create_user` (
     IN phone VARCHAR(45)
 )
 BEGIN
-	INSERT INTO users (username, password, email, phone) 
+	INSERT INTO db.users (username, password, email, phone) 
     VALUES (username, password, email, phone);
 END$$
 

@@ -7,7 +7,7 @@ CREATE PROCEDURE `get_items` (
     IN userid INT
 )
 BEGIN
-    SELECT * from item where userid = userid;
+    SELECT * from db.item where userid = userid;
 END$$
 
 DELIMITER ;

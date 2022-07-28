@@ -8,7 +8,7 @@ CREATE PROCEDURE `create_group` (
     IN name VARCHAR(45)
 )
 BEGIN
-	INSERT INTO group (idUser, name) 
+	INSERT INTO db.group (idUser, name) 
     VALUES (idUser, name,);
 END$$
 

@@ -9,7 +9,7 @@ CREATE PROCEDURE `create_item` (
     IN level INT
 )
 BEGIN
-	INSERT INTO item (userid, itemid, level) 
+	INSERT INTO db.item (userid, itemid, level) 
     VALUES (userid, itemid, level);
 END$$
 
