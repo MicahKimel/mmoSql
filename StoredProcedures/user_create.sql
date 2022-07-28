@@ -12,6 +12,7 @@ CREATE PROCEDURE `create_user` (
 BEGIN
 	INSERT INTO db.users (username, password, email, phone) 
     VALUES (username, password, email, phone);
+    --Give User Start Location too
 END$$
 
 DELIMITER ;

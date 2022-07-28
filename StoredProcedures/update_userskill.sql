@@ -9,8 +9,8 @@ CREATE PROCEDURE `update_userskill` (
     IN level INT
 )
 BEGIN
-	UPDATE db.item (skillid, level) 
-    VALUES (skillid, level)
+	UPDATE db.item
+    SET skillid = skillid, level = level
     WHERE userid = userid;
 END$$
 
