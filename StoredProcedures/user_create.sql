@@ -1,9 +1,9 @@
 USE `db`;
-DROP procedure IF EXISTS `create_user`;
+DROP procedure IF EXISTS `user_create`;
 
 DELIMITER $$
 USE `db`$$
-CREATE PROCEDURE `create_user` (
+CREATE PROCEDURE `user_create` (
 	IN username VARCHAR(45),
     IN password VARCHAR(255),
     IN email VARCHAR(45),

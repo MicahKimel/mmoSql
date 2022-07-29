@@ -1,7 +1,7 @@
 CREATE TABLE `groups` (
-  `idGroup` int NOT NULL AUTO_INCREMENT,
-  `idUser` int NOT NULL,
+  `idGroup` INT NOT NULL AUTO_INCREMENT,
+  `idUser` INT NOT NULL,
+  `auth` INT NOT NULL,
   `name` varchar(45) NOT NULL,
-  `creationdate` datetime DEFAULT (now()),
-  CONSTRAINT id_constraint PRIMARY KEY (`idGroup`)
+  `creationdate` datetime DEFAULT (now())
 )

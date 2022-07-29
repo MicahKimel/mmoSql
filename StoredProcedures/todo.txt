@@ -1,0 +1,3 @@
+Get userlocations within radius
+Get projectile within radius
+add some sort of storage for items

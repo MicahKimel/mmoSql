@@ -1,9 +1,9 @@
 USE `db`;
-DROP procedure IF EXISTS `update_userskill`;
+DROP procedure IF EXISTS `userskill_update`;
 
 DELIMITER $$
 USE `db`$$
-CREATE PROCEDURE `update_userskill` (
+CREATE PROCEDURE `userskill_update` (
     IN userid INT,
     IN skillid INT,
     IN level INT

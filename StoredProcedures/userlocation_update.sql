@@ -1,9 +1,9 @@
 USE `db`;
-DROP procedure IF EXISTS `update_userlocation`;
+DROP procedure IF EXISTS `userlocation_update`;
 
 DELIMITER $$
 USE `db`$$
-CREATE PROCEDURE `update_userlocation` (
+CREATE PROCEDURE `userlocation_update` (
     IN userid INT,
     IN xlocation DECIMAL(10,2),
     IN ylocation DECIMAL(10,2),
